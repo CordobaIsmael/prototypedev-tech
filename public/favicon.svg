@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1120" />
+      <stop offset="100%" stop-color="#070B19" />
+    </linearGradient>
+    <linearGradient id="leftFacet" x1="16" y1="16" x2="52" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="35%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="rightFacet" x1="50" y1="12" x2="86" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="55%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="url(#bgGrad)" />
+  <!-- Left hexagonal stem forming the P -->
+  <path
+    d="M50 12L17 31V70L34 80V40L50 31V12Z"
+    fill="url(#leftFacet)"
+  />
+  <!-- Right hexagonal bowl wrapping inward -->
+  <path
+    d="M50 12L83 31V62L50 81L38 74V55L50 62L66 53V40L50 31V12Z"
+    fill="url(#rightFacet)"
+  />
+</svg>
